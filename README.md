@@ -14,4 +14,11 @@ File > AES
 add: 0x0C263D8C22DCB085894899C3A3796383E9BF9DE0CBFB08C9BF2DEF2E84F29D74
 
 settings > Local Mapping file (check it)
-and add this file 
+and add from from fmodel-files from this repository  (5.3.2-1525091+++depot_marvel+S1_1_release-Marvel.usmap)
+
+### now export all files from .paks
+
+1. in fmodel open pakchunkCharacter-Windows.pak
+2. (new windows will oopen) and then right-click on Marvel > Save Folder's Package models
+3. navigate to where you opened FModel from, right next to it should be Output Folder, open it
+4. navigate to Outpout > Exports 
