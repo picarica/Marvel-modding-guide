@@ -50,6 +50,7 @@ note: Import the basic model, without any additional names just numbers and afte
 3. Change Vertex color space from sRGBA to Linear
 4. Change bone length from 1m to 5m
 5. Press import
+6. Rename imported model Orange to "Armature"
 
 now the stuff is up to you what you will do, but our example will follow with no exaggerated edits maybe some texture paintings
 
