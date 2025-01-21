@@ -61,18 +61,29 @@ you can assign textures in blender so it will be easier in UE, and you can easil
 2. in the Right bottom panel select Material Tab (Red icon with Checkered ball)
 3. then on the bottom you can add Image textures Ctrl+a > Image Texture , click the small image icon the left then find the correct texture
 textures are differentiated in 4 groups
+
 T_(model number and skin variant)_(Body part associated with texture)_Variant
+
 We have 4 variants, the last letter of texture name assigns our variant lets explain variants
+
 T_1043001_Body_N - Normal map Texture
+
 T_1043001_Body_D -  Image texture
+
 T_1043001_Body_ORM - Roughness texture
+
 T_1043001_Body_S - Specular Texture
+
 
 when we differentiated all types of texutres now you just add them all and plug them in correct plugs in Principled BSDF node
 _D variant goes into Base color
+
 _N goes firstly into Normal vector, you can add it via CTRL+A and then into Normal in Principled BSDF
+
 _ORM goes into roughness
+
 _S goes into Specular (first you have to expand it)
+
 
 
 4.(Optinal) for safety i split my model by materials first, go back into Layout TAB on top
@@ -159,15 +170,20 @@ now we have correct jsons we will use in UE
 2. navigate to Materials folder
 3. do these steps for all our materials
 3a. Right click > Scripted Asset Actions >  Import MI JSON 2 MM
+
 3b. locate the correct .json from C:\Users\picarica\Downloads\FModel\Output\Exports\Marvel\Content\Marvel\Characters\1020\1020001\Materials, there should be our newly exported jsons
 select the correct mesh corresponding to the material, the name should match, in blender material, or the one that are imported in UE 
+
 3c. click correct json (click over all the errors these are normal)
+
 3d. Right click on the Current Material and > Create Material Instance
+
 3e. (if you applied textures in Blender skip this step) now you need to apply all textures in the Material instance 
 if textures didnt import with the mesh import, you need add them now from C:\Users\picarica\Downloads\FModel\Output\Exports\Marvel\Content\Marvel\Characters\1020\1020001\Textures, you can import all of them and move them to Textures folder, import _D textured to Base color _ORM TO ORM window etc.
-4. now open our base Mesh in Meshes folder and apply our newly created _inst(material instances) materials
-5. import Lobby Mesh, keep options the same but make sure you Deselect Skeleton, and you can remove all imported Textures and Materials and apply same instanced materials to Lobby model as well
-6. Copy all Materials and copy them to Materials > Lobby folder
+
+5. now open our base Mesh in Meshes folder and apply our newly created _inst(material instances) materials
+6. import Lobby Mesh, keep options the same but make sure you Deselect Skeleton, and you can remove all imported Textures and Materials and apply same instanced materials to Lobby model as well
+7. Copy all Materials and copy them to Materials > Lobby folder
 at the ned of process make sure you 
 
 ### Data Asset (DEPRECATED)
