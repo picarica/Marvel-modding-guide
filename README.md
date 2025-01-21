@@ -199,7 +199,7 @@ and we are done now we just copy new mod to our game files
 
 the files were cooked in our project files for me it was C:\Users\picarica\Documents\Unreal Projects\Marvel\Saved\Cooked\Windows\Marvel\Content\Marvel\Characters
 
-so copy all files from C:\Users\picarica\Documents\Unreal Projects\Marvel\Saved\Cooked\Windows\Marvel\Content\Marvel\Characters to C:\Program Files (x86)\Steam\steamapps\common\MarvelRivals\MarvelGame\Marvel\Content\Marvel\Characters
+so copy all files Except from Meshes folder (PsyhicsAsset and Skeleton) from C:\Users\picarica\Documents\Unreal Projects\Marvel\Saved\Cooked\Windows\Marvel\Content\Marvel\Characters to C:\Program Files (x86)\Steam\steamapps\common\MarvelRivals\MarvelGame\Marvel\Content\Marvel\Characters
 
 make sure you have backup of the characters you moded.
 
