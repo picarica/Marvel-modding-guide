@@ -170,7 +170,9 @@ if textures didnt import with the mesh import, you need add them now from C:\Use
 6. Copy all Materials and copy them to Materials > Lobby folder
 at the ned of process make sure you 
 
-### Data Asset
+### Data Asset (DEPRECATED)
+
+when cooking Data asset is not needed
 
 1. navigate in our Content browser to folder All > Content
 2. Right click empty sapce > Miscelanious > search Primary Asset Label
@@ -188,9 +190,10 @@ and add ALL materials(only instancted ones) and Textures in project
 ### Export Settings
 
 1. Go to Edit > Project Settings > Packaging and Uncheck "Use IO Store"
-2. also Check Generate Chunks
-3. in main window click Platforms > Windows > Binary configuration = Shipping
-4. in the same window you can press Cook Content
+2. in the same windows Search for "cook everything" and make sure that is checked
+3. also Check Generate Chunks
+4. in main window click Platforms > Windows > Binary configuration = Shipping
+5. in the same window you can press Cook Content
 
 and we are done now we just copy new mod to our game files
 
